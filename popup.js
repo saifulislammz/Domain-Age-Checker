@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         try {
             // Base64 encoded URL
-            const encodedUrl = "aHR0cHM6Ly9leC5zYWlmdWxpc2xhbS5vbmxpbmUvYXBpLnBocA==";
+            const encodedUrl = "apikeyhere";
             const decodedUrl = atob(encodedUrl);
             const response = await fetch(`${decodedUrl}?domain=${encodeURIComponent(domain)}`);
             const data = await response.json();

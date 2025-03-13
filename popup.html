@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domain Age Checker</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <i class="fas fa-globe-americas"></i>
+                <h1>Domain Age Checker</h1>
+            </div>
+            
+            <div class="content">
+                <div class="domain-info">
+                    <div class="info-item">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-link"></i>
+                        </div>
+                        <div class="info-content">
+                            <p class="label">Domain</p>
+                            <p id="domainDisplay" class="value">Loading...</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon-wrapper">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <p class="label">Age</p>
+                            <p id="ageDisplay" class="value">Fetching data...</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div id="errorMessage" class="error-message hidden">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span class="error-text"></span>
+                </div>
+            </div>
+
+            <div class="footer">
+                <a href="https://saifulislam.online" target="_blank" class="developer-link">
+                    <i class="fas fa-code"></i>
+                    <span>Developed by saifulislammz</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
